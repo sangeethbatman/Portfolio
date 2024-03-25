@@ -10,39 +10,38 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Rakesh",
-  logo_name: "rakesh()",
+  title2: "Sangeeth",
+  logo_name: "sangeeth()",
   nickname: "",
-  full_name: "Rakesh Srinivasan",
-  subTitle: "Full Stack Developer",
+  full_name: "Sangeeth Kumar Balasubramanian",
+  subTitle: "QA Automation Tester",
   resumeLink:
-    "https://drive.google.com/file/d/1TMtbOqNaGP19Nj24_08549ueqpl93_Jt/view?usp=sharing",
-  mail: "engineer_rakesh@outlook.com",
+    "https://drive.google.com/file/d/18mwTYlqMpgMrHDkUMZnV59Ni8Fn8m7ns/view",
+  mail: "sangeethkumarb02@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/Rakesh-git-2",
-  leetcode: "https://leetcode.com/Rakesh-git-2/",
-  linkedin: "https://www.linkedin.com/in/rakesh-srinivasan",
-  gmail: "rakeshs.mailer@gmail.com",
-  twitter: "https://twitter.com/rakesh_s_7",
-  instagram: "https://www.instagram.com/_rakesh_.s._",
+  github: "https://github.com/sangeethbatman/",
+  leetcode: "https://leetcode.com/sangeethbatman/",
+  linkedin: "https://www.linkedin.com/in/sangeeth-kumar-balasubramanian-18b5b915a/",
+  gmail: "sangeethkumarb02@gmail.com@gmail.com",
+  instagram: "https://www.instagram.com/__iamsangeeth__",
 };
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "QA Automation Testing",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Proficient in developing highly interactive Frontend/User Interfaces for web and mobile applications using technologies like ReactJS, React Native, Angular, Redux, and Django.",
-        "⚡ Skilled in building responsive website frontends, ensuring optimal user experience across devices and screen sizes.",
-        "⚡ Experienced in developing robust application backends using Node.js, Express.js, Django, and Loopback, ensuring scalability, security, and performance.",
-        "⚡ Competent in integrating third-party services such as sanity.io, AWS, and Firebase, enhancing functionality and features of applications.",
-        "⚡ Strong proficiency in programming languages including Python, JavaScript, TypeScript, and SQL, with a deep understanding of data structures and algorithms.",
-        "⚡ Demonstrated ability in cloud-native deployment on platforms like GCP (Cloud Run, Cloud SQL, Cloud Build), AWS (EC2, S3, Lambda), and Firebase, leveraging Docker and Kubernetes for containerization and orchestration.",
-        "⚡ Solid understanding of CI/CD pipelines, Git version control, and Unix systems, ensuring efficient development workflows and collaboration.",
+        "⚡ Experienced Automation Tester with 2 years focus on software reliability and performance.",
+        "⚡ Designed, developed, and executed automated test scripts using Java and Selenium WebDriver to validate the functionality of web applications across multiple browsers and platforms.",
+        "⚡ Led Java-based test suite development, reducing post-release defects.",
+        "⚡ Implemented diverse testing frameworks/tools for robust test suites and comprehensive quality assurance.",
+        "⚡ Strong proficiency in programming languages including Python, Java and SQL, with a deep understanding of data structures and algorithms.",
+        "⚡ Skilled in root cause analysis, collaborating with development teams for effective solutions.",
+        "⚡ Solid understanding of CI/CD pipelines, Git version control, and Unix systems.",
       ],
 
       softwareSkills: [
@@ -69,55 +68,41 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Selenium",
+          fontAwesomeClassname: "simple-icons:selenium",
           style: {
             color: "#61DAFB",
           },
         },
         {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
           style: {
             color: "#e61414",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
+          skillName: "Cucumber",
+          fontAwesomeClassname: "simple-icons:cucumber",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
           style: {
             color: "#73ac68",
           },
         },
+      
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
+           skillName: "Java",
+           fontAwesomeClassname: "simple-icons:java",
+           style: {
+             color: "#f89820",
           },
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-
-        // {
-        //   skillName: "Java",
-        //   fontAwesomeClassname: "simple-icons:java",
-        //   style: {
-        //     color: "#f89820",
-        //   },
-        // },
+         },
         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
@@ -146,41 +131,15 @@ const skills = {
             color: "#4479A1",
           },
         },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Snowflake",
-          fontAwesomeClassname: "simple-icons:snowflake",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "DBT",
-          fontAwesomeClassname: "simple-icons:dbt",
-          style: {
-            color: "#f55b50",
-          },
-        },
+      
+       // {
+         // skillName: "AWS",
+         // fontAwesomeClassname: "simple-icons:amazonaws",
+          //style: {
+           // color: "#FF9900",
+         // },
+        //},
+        
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -216,12 +175,7 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+       
         },
       ],
     },
@@ -231,18 +185,31 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "University College Dublin",
-      subtitle: "Masters in Information Systems",
+      title: "Fanshawe College",
+      subtitle: "Graduate Certificate in Software and Information Systems Testing",
       logo_path: "ucdlogo.png",
-      alt_name: "UCD",
-      duration: "2023 - 2024",
+      alt_name: "FC",
+      duration: "2024 - 2025",
       descriptions: [
-        "⚡ Focused on Quantitative Data analysis, Web development(Django), UX Design, Project management, ML, AI and Ethics",
+        "⚡ Acquiring hands-on experience in quality assurance processes to ensure the delivery of reliable and high performing software solutions",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://ritchennai.org/",
+      website_link: "https://fanshaweonline.ca/",
     },
+    {
+      title: "Durham College",
+      subtitle: "Graduate Certificate in Data Analytics for Business Deciness Making",
+      logo_path: "ucdlogo.png",
+      alt_name: "DC",
+      duration: "2023 - 2024",
+      descriptions: [
+        "⚡ Gained practical insights into utilizing data analytics for strategic business decision-making",
+        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+      ],
+      website_link: "https://durhamcollege.ca/",
+    }
     {
       title: "Rajalakshmi institute of technology",
       subtitle: "Bachelor in Electronics and communication engineering",
@@ -250,7 +217,7 @@ const degrees = {
       alt_name: "RIT",
       duration: "2016 - 2020",
       descriptions: [
-        " 7.23 CGPA",
+        " 7.1 CGPA",
         "⚡ Focused on OOPS, Data Structures, Operating systems, Computer Networking, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
