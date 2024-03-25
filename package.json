@@ -2,7 +2,7 @@
   "private": true,
   "name": "personalPortfolio",
   "version": "1.0.0",
-  "homepage": "https://Rakesh-git-2.github.io/PortfolioV2/",
+  "homepage": "https://sangeethbatman.github.io/Portfolio/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
