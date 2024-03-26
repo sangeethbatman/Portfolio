@@ -209,7 +209,7 @@ const degrees = {
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "https://durhamcollege.ca/",
-    }
+    },
     {
       title: "Rajalakshmi institute of technology",
       subtitle: "Bachelor in Electronics and communication engineering",
@@ -230,52 +230,33 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "React - The complete guide",
+      title: "Selenium WebDriver4 with Java",
       subtitle: "Udemy",
       logo_path: "react.png",
-      certificate_link: "",
-      alt_name: "react udemy",
+      certificate_link: "https://www.udemy.com/certificate/UC-6985d171-3ca5-4fdd-811a-b5d67e59ffc7/",
+      alt_name: "selenium-java-udemy",
       // color_code: "#aAAFED",
       color_code: "#000",
     },
     {
-      title: "NodeJS - The complete guide",
-      subtitle: "Udemy",
+      title: " Microsoft Azure data fundamentals certification DP-900",
+      subtitle: "Microsoft",
       logo_path: "node.png",
-      certificate_link: "",
-      alt_name: "nodejs udemy",
+      certificate_link: "https://www.credly.com/badges/daa5fa79-3ff3-435a-83fe-457587068040/linked_in_profile",
+      alt_name: "Azure Data",
       // color_code: "#aAAFED",
       color_code: "#e39ff6",
     },
     {
-      title: "The complete SQL Bootcamp",
-      subtitle: "Udemy",
+      title: "Microsoft Azure cloud fundamentals certification AZ-900",
+      subtitle: "Microsoft",
       logo_path: "node.png",
       certificate_link: "",
-      alt_name: "sql udemy",
+      alt_name: "Azure cloud",
       // color_code: "#aAAFED",
       color_code: "#63c5da",
     },
-    {
-      title: "IBM Data Science",
-      subtitle: "Coursera",
-      logo_path: "Coursera.png",
-      certificate_link:
-        "https://coursera.org/api/certificate.v1/pdf/V2ASK485YPY4",
-      alt_name: "coursera",
-      // color_code: "#aAAFED",
-      color_code: "#c9f0f0",
-    },
-    {
-      title: "IITM - Master Data Science",
-      subtitle: "Coursera",
-      logo_path: "guvi.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1LmFTtX3mjqdakzHzN_UlRUww8AcVfIBR/view?usp=sharing",
-      alt_name: "coursera",
-      // color_code: "#aAAFED",
-      color_code: "#abf7b1",
-    },
+   
 
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
@@ -294,7 +275,7 @@ const experience = {
   title: "Experience",
   subtitle: " ",
   description:
-    "Software Engineer with 3.5 years of experience in fullstack web development and data engineering based in Dublin, Ireland. I am able to offer a wide range of expertise. My areas of experience include Python, Javascript, SQL, and frameworks such as Angular, React, and Django. I enjoy developing reliable as well as effective solutions. My professional experience spans across several areas, including full-stack e-commerce platform development, UI design, web scraping, cloud deployment, and data warehousing.",
+    "Dynamic and detail-oriented Software Automation Tester with 2 years of experience proficient in Java, Selenium, Postman, REST API testing, JMeter, and Agile methodologies. Adept at designing, developing, and executing automated test scripts to ensure the quality and reliability of software products. Seeking an opportunity to leverage expertise in software testing and automation to contribute effectively to a dynamic software development team.",
 
   header_image_path: "experience.svg",
   sections: [
@@ -302,39 +283,19 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Software Engineer - Freelance",
-          company: "FCTRZ technologies",
-          company_url: "https://fctrz.in/",
+          title: "System Engineer",
+          company: "Tata Consultancy Services",
+          company_url: "https://www.tcs.com/",
           logo_path: "fctrz.webp",
-          duration: "Apr 2023 - Present",
+          duration: "Sept 2020 - Oct 2022",
           location: "Chennai",
-          description: `As a Freelance Software Engineer, I've worked on full-stack web development projects, specializing in building robust e-commerce platforms. Utilizing Angular for frontend development and Django for backend implementation, I've crafted consumer and seller-oriented solutions with a keen eye on quality assurance, achieving a test coverage of over 90%. Additionally, my proficiency in cloud-native deployment shines through as I successfully deployed backend systems on GCP Cloud Run, utilizing Docker containers to enhance scalability and efficiency. Through the implementation of a robust CI/CD pipeline using GCP Cloud Build, I've streamlined development and deployment processes, ensuring seamless project delivery.
+          description: `I have extensive experience in designing, developing, and executing automated test scripts using Java and Selenium WebDriver to validate web application functionality across various browsers and platforms. I enhanced test case readability through BDD, executed TestNG scripts, and conducted API tests. Orchestrating the design and review of over 200 precise test cases across multiple development teams, I ensured comprehensive test coverage. Additionally, I implemented API testing using tools like Postman and REST Assured to validate the integrity and performance of RESTful APIs. Moreover, I developed optimized CI/CD jobs with Jenkins and Git for continuous integration practices, fostering efficiency in the development process. Collaborating closely with cross-functional Agile teams, I contributed to planning and executing testing activities within iterative development cycles. Actively participating in daily stand-ups, sprint planning, and retrospective meetings, I ensured alignment of testing efforts with development goals. My proactive approach led to the prompt identification and reporting of an average of 15 bugs per week for resolution.
             `,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#ee3c26",
         },
-        {
-          title: "Full Stack Developer",
-          company: "Pipecandy technologies",
-          company_url: "https://pipecandy.com/",
-          logo_path: "pipecandy.png",
-          duration: "Sep 2021 - Mar 2023",
-          location: "Chennai",
-          description: `During my tenure as a Python Developer, I worked on various projects aimed at enhancing SaaS applications. Notably, I designed, developed, and deployed React-based Chrome extensions, elevating SaaS application engagement by 30%. Additionally, I spearheaded projects in domain technology discovery and web scraping, showcasing proficiency in Node.js and Puppeteer. My expertise in cloud deployment, particularly on AWS EC2, and data warehousing initiatives further solidified my technical prowess, enabling efficient data processing and migration to Snowflake with the aid of DBT.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Graduate Engineer Trainee",
-          company: "Samsung electronics",
-          company_url: "https://www.samsung.com/in/about-us/company-info/",
-          logo_path: "Samsung.png",
-          duration: "Oct 2020 - Sep 2021",
-          location: "Chennai",
-          description:
-            "During my time as a Graduate Engineer Trainee, I gained valuable experience in project and quality management. I successfully managed software projects and implemented automated systems for document revision, showcasing my project management skills. Additionally, I contributed to quality assurance processes by assisting with multiple audits, including ISO and NABL audits. These experiences laid a strong foundation for my subsequent roles, allowing me to develop into a versatile and skilled software engineer.", // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
-        },
+        
+       
       ],
     },
   ],
